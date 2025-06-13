@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SceneID | AI Scene Recognition. Movie Discovery, Reimagined</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Smooth scroll and animations */
+        html {
+            scroll-behavior: smooth;
+        }
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <a href="#" class="text-xl font-bold text-blue-600">SceneID</a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#about-project" class="hover:text-blue-600">Project</a>
+                    <a href="#about-engineer" class="hover:text-blue-600">About Me</a>
+                    <a href="#contact" class="hover:text-blue-600">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="py-20 bg-gradient-to-r from-blue-500 to-indigo-700 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 fade-in"><span class="text-yellow-300">Revolutionizing video search </span>with real-time AI optimization</h1>
+            <p class="text-xl md:text-2xl mb-8 fade-in" style="transition-delay: 0.2s;">Cutting-edge AI to identify film scenes in seconds. Zero typing. Instant results. 10x faster discovery..</p>
+            <a href="#contact" class="bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-bold py-3 px-8 rounded-full text-lg fade-in" style="transition-delay: 0.4s;">Invest Now</a>
+        </div>
+    </section>
+
+    <!-- About Project -->
+    <section id="about-project" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 fade-in">SceneID?</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md fade-in">
+                    <i class="fas fa-robot text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">What is SceneID</h3>
+                    <p>SceneID is a mobile app that identifies movies or TV shows by analyzing a short (10 - 30 seconds) video clip captured by the user - no typing, no manual search. Just point, record, and get the title, cast, and streaming links instantly. <br><br> Just like Shazam recognises songs, SceneID uses video-audio fingerprinting and AI scene matching to instantly fetch the title, episode, and even the streaming platform.</p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md fade-in" style="transition-delay: 0.2s;">
+                    <i class="fas fa-cloud text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Why SceneID</h3>
+                    <p>Viewers often stumble upon scenes from movies or shows - on TikTok, in a bar, on someone’s screen - and want to know *what it is*. Text-based search is clumsy and unreliable. SceneID solves this by using a short video clip to *instantly* identify the source.</p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md fade-in" style="transition-delay: 0.4s;">
+                    <i class="fas fa-chart-line text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">How Does SceneID Work</h3>
+                    <p>SceneID combines audiovisual fingerprinting, ML scene matching, and smart metadata retrieval to solve a real, global problem: helping users instantly identify and access the content they love.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Engineer -->
+    <section id="about-engineer" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/3 mb-8 md:mb-0 fade-in">
+                    <img src="https://via.placeholder.com/300" alt="Your Name" class="rounded-full w-48 h-48 object-cover mx-auto shadow-xl">
+                </div>
+                <div class="md:w-2/3 md:pl-12 fade-in" style="transition-delay: 0.2s;">
+                    <h2 class="text-3xl font-bold mb-6">About Me</h2>
+                    <p class="text-lg mb-4"><strong>Name:</strong> Patrick Olusola</p>
+                    <p class="text-lg mb-4"><strong>Role:</strong> Lead Cloud Engineer & AI Specialist</p>
+                    <p class="mb-6">AWS Certified Solutions Architect with 5+ years of experience turning bold ideas into scalable systems. With certifications in AWS, Kubernetes, Terraform, and DevOps, I also contribute to the infrastructure layer, ensuring seamless delivery, fast performance, and scalable deployment. My strength lies in connecting creative vision with technical execution - building products that resonate and perform.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-blue-600 hover:text-blue-800"><i class="fab fa-linkedin text-2xl"></i></a>
+                        <a href="#" class="text-blue-600 hover:text-blue-800"><i class="fab fa-github text-2xl"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto px-6 max-w-2xl">
+            <h2 class="text-3xl font-bold text-center mb-12 fade-in">Get in Touch</h2>
+            <form class="space-y-6 fade-in" style="transition-delay: 0.2s;" netlify>
+                <div>
+                    <label for="name" class="block text-lg mb-2">Name</label>
+                    <input type="text" id="name" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500">
+                </div>
+                <div>
+                    <label for="email" class="block text-lg mb-2">Email</label>
+                    <input type="email" id="email" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500">
+                </div>
+                <div>
+                    <label for="message" class="block text-lg mb-2">Message</label>
+                    <textarea id="message" rows="4" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500"></textarea>
+                </div>
+                <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg w-full">Let's Work</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 SceneID. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for animations -->
+    <script>
+        // Fade-in effect on scroll
+        document.addEventListener('DOMContentLoaded', () => {
+            const fadeElements = document.querySelectorAll('.fade-in');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            fadeElements.forEach(el => observer.observe(el));
+        });
+    </script>
+</body>
+</html>
+
