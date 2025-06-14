@@ -46,6 +46,8 @@ Outcome
 The landing page is accessible via `https://sceneid.run.place`
 Contact form submissions are successfully handled by the backend and stored on the server
 
+Here is the Public IP address where the page is hosted - 18.200.7.212
+
 ***** claps for self *****
 
 -----
